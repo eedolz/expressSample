@@ -9,10 +9,10 @@ const jwt = require('jsonwebtoken');
 var app = express();
 
 const connection = mysql.createConnection({
-    host: 'unplugged.mysql.database.azure.com',
-    user: 'unplugged',
-    password: 'Rlawodusgkrwja174!',
-    database: 'unplugged',
+    host: '',
+    user: '',
+    password: '',
+    database: '',
     ssl: {
         rejectUnauthorized: true,
     }
